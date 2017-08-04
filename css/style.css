@@ -1,59 +1,55 @@
-
 .hed {
-color: crimson; 
-font-family: cursive;
-font-size: 150%;
-height: 150%;
-text-shadow: 5px 10px 15px blue;
-text-align:center;
+	color: crimson; 
+	font-size: 500%;
+	font-family: cursive;
+	text-shadow: 5px 10px 15px blue;
+
 }
 .hea {
+	margin-top: 0px;
 	background-image: url("../2.jpg"); 
-	width:100%; 
-	height:300%; 
+	width:98%; 
+	height:50%; 
 	background-repeat:no-repeat;
 	text-align:center;
+	overflow: hidden;
+	margin-left: 1%;
 }
 .t1 {
-	width: 33.3%;
+	color: black;
 }
 .bjp {
 	background-image: url("../sush1.jpg");
-	width:70%; 
-	height:90%; 
+	margin-left: 3%;
+	width:90%; 
+	height:100%; 
 	background-repeat:round;
 	text-align:center;
 }
 .harry {
 	background-image: url("../harry.png");
-	width:70%; 
-	height:90%; 
+	margin-left: 3%;
+	width:96%; 
+	height:100%; 
 	background-repeat:round;
 	text-align:center;
 }
 a{
 	color: blue; 
-	text-decoration:underline;
+	text-decoration:none;
 }
 .table {
 	width: 100%; 
 	background-color: wheat; 
 	border=1px; 
 	cellpadding=2px;
+	overflow: hidden;
+
 }
 .mac {
 	color: black;
 }
-div {
-font-family: monospace;
 
-margin: auto;
-width:100%;
-height:10%;
-background:#e2e2e2;
-text-align:center;
-text-decoration: none;
-}
 .im2 {
 	 width: 30% ;
 	 height: 100%;
@@ -62,25 +58,15 @@ text-decoration: none;
 	 font-size: 5px;
 
 }
-nav.nav li {
-	display: inline;
-	font-family: sans-serif;
-	font-size:150%;
- 	margin: auto;
-	width:100%;
-	height:20%;
-	background:#e2e2e2;
-	text-align:right;
-	padding-right: 50%; 
-}
+
 ul {
 	display: inline;
-list-style-type: none;
-margin-left: 50%;
-width:500px;
-overflow: hidden;
-padding:0%; 
-color:green;
+	list-style-type: none;
+	margin-left: 50%;
+	width:500px;
+	overflow: hidden;
+	padding:0%; 
+	color:green;
 }
 .bn li{
 	display: inline-block;
@@ -96,22 +82,26 @@ ul.format {
 }
 
 .nav {
-	
+	height: 10%;
+	width: 100%;
 	background-color: dimgray;
 	overflow: hidden; 
+
 }
 .nav a {
 	float: left;
 	display: block;
 	color: cornsilk;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 20px 20px;
 	text-decoration: none;
 	font-size: 18px;   
 }
 .nav a:hover {
 	background-color: indianred; 
 }
+
+
 .format li {
 
 }
@@ -123,22 +113,20 @@ li a {
 	text-decoration: none; 
 }
 img {
-width:100px;
-height:50px;
-text-align:center;
+	width:100px;
+	height:50px;
+	text-align:center;
 }
-div.social { 
-
-	
+.social { 
+	background-color: dimgray;
 	margin-left:10px;
     margin-top:50px;
     margin-bottom: 0px;
 	text-decoration: none;
 	float: left;
 }
-div.social a img{ 
-	
+.social a img{ 
 	display: inline;
 	height: 40px;
+	align-items: center;
 }
-
