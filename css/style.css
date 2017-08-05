@@ -1,6 +1,6 @@
 .hed {
 	color: crimson; 
-	font-size: 500%;
+	font-size: 600%;
 	font-family: cursive;
 	text-shadow: 5px 10px 15px blue;
 
@@ -9,7 +9,7 @@
 	margin-top: 0px;
 	background-image: url("../2.jpg"); 
 	width:98%; 
-	height:50%; 
+	height:40%; 
 	background-repeat:no-repeat;
 	text-align:center;
 	overflow: hidden;
@@ -20,69 +20,57 @@
 }
 .bjp {
 	background-image: url("../sush1.jpg");
-	margin-left: 3%;
-	width:90%; 
-	height:100%; 
+	margin-left: 1%;
+	width:94%; 
+	height:80%; 
 	background-repeat:round;
-	text-align:center;
+	text-align:right;
+}
+p {
+	color: black;
 }
 .harry {
 	background-image: url("../harry.png");
-	margin-left: 3%;
+	margin-left: 1%;
 	width:96%; 
-	height:100%; 
+	height:95%; 
 	background-repeat:round;
-	text-align:center;
+	text-align:left;
 }
 a{
 	color: blue; 
 	text-decoration:none;
 }
-.table {
+.t1  {
 	width: 100%; 
 	background-color: wheat; 
-	border=1px; 
-	cellpadding=2px;
 	overflow: hidden;
-
+	font-size: 120%;
+}
+table {
+	width: 100%; 
+	background-color: wheat; 
+	font-size: 120%;
+	color: black;
+	overflow: hidden;
+}
+.t2  {
+	width: 100%; 
+	background-color: wheat; 
+	overflow: hidden;
+	font-size: 100%;
+	justify-content:center;
+	color: blac
+}
+.column{
+	background-color: wheat; 
 }
 .mac {
 	color: black;
 }
 
-.im2 {
-	 width: 30% ;
-	 height: 100%;
-	 background-image: url(bjp.jpg);
-	 float: left;
-	 font-size: 5px;
-
-}
-
-ul {
-	display: inline;
-	list-style-type: none;
-	margin-left: 50%;
-	width:500px;
-	overflow: hidden;
-	padding:0%; 
-	color:green;
-}
-.bn li{
-	display: inline-block;
-	display: inline;
-	height: 80px;
-	padding: 25px 16px;
-
-}
-ul.format {
-	display: inline-block;
-	display: inline;
-	height: 80px;
-}
-
 .nav {
-	height: 10%;
+	height: 8%;
 	width: 100%;
 	background-color: dimgray;
 	overflow: hidden; 
