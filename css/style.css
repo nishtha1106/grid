@@ -1,120 +1,130 @@
 .hed {
-	color: crimson; 
-	font-size: 600%;
-	font-family: cursive;
-	text-shadow: 5px 10px 15px blue;
+    color: crimson;
+    font-size: 600%;
+    font-family: cursive;
+    text-shadow: 5px 10px 15px blue;
+}
 
-}
 .hea {
-	margin-top: 0px;
-	background-image: url("../2.jpg"); 
-	width:98%; 
-	height:40%; 
-	background-repeat:no-repeat;
-	text-align:center;
-	overflow: hidden;
-	margin-left: 1%;
+    margin-top: 0px;
+    background-image: url("../img/2.jpg");
+    width: 98%;
+    height: 40%;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 1%;
 }
+
 .t1 {
-	color: black;
+    color: black;
 }
+
 .bjp {
-	background-image: url("../sush1.jpg");
-	margin-left: 1%;
-	width:94%; 
-	height:80%; 
-	background-repeat:round;
-	text-align:right;
+    background-image: url("../img/sush1.jpg");
+    margin-left: 1%;
+    width: 94%;
+    height: 80%;
+    background-repeat: round;
+    text-align: right;
 }
+
 p {
-	color: black;
+    color: black;
 }
+
 .harry {
-	background-image: url("../harry.png");
-	margin-left: 1%;
-	width:96%; 
-	height:95%; 
-	background-repeat:round;
-	text-align:left;
+    background-image: url("../img/harry.png");
+    margin-left: 1%;
+    width: 96%;
+    height: 95%;
+    background-repeat: round;
+    text-align: left;
 }
-a{
-	color: blue; 
-	text-decoration:none;
+
+a {
+    color: blue;
+    text-decoration: none;
 }
-.t1  {
-	width: 100%; 
-	background-color: wheat; 
-	overflow: hidden;
-	font-size: 120%;
+
+.t1 {
+    width: 100%;
+    background-color: wheat;
+    overflow: hidden;
+    font-size: 120%;
 }
+
 table {
-	width: 100%; 
-	background-color: wheat; 
-	font-size: 120%;
-	color: black;
-	overflow: hidden;
+    width: 100%;
+    background-color: wheat;
+    font-size: 120%;
+    color: black;
 }
-.t2  {
-	width: 100%; 
-	background-color: wheat; 
-	overflow: hidden;
-	font-size: 100%;
-	justify-content:center;
-	color: blac
+
+.t2 {
+    width: 100%;
+    background-color: wheat;
+    font-size: 100%;
+    color: black;
 }
-.column{
-	background-color: wheat; 
+
+.column {
+    background-color: wheat;
 }
+
 .mac {
-	color: black;
+    color: black;
 }
 
 .nav {
-	height: 8%;
-	width: 100%;
-	background-color: dimgray;
-	overflow: hidden; 
-
+    height: 8%;
+    width: 100%;
+    background-color: dimgray;
+    overflow: hidden;
 }
+
 .nav a {
-	float: left;
-	display: block;
-	color: cornsilk;
-	text-align: center;
-	padding: 20px 20px;
-	text-decoration: none;
-	font-size: 18px;   
+    float: left;
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 18px;
 }
+
 .nav a:hover {
-	background-color: indianred; 
+    background-color: indianred;
 }
 
 
-.format li {
+.format li {}
 
-}
 li a {
-	display: inline-block;
-	color: black;
-	float: left;
-	padding: 12px, 16px;
-	text-decoration: none; 
+    display: inline-block;
+    color: black;
+    float: left;
+    padding: 12px, 16px;
+    text-decoration: none;
 }
+
 img {
-	width:100px;
-	height:50px;
-	text-align:center;
+    width: 100px;
+    height: 50px;
+    text-align: center;
 }
-.social { 
-	background-color: dimgray;
-	margin-left:10px;
-    margin-top:50px;
+
+.social {
+    background-color: dimgray;
+    margin-left: 10px;
+    margin-top: 50px;
     margin-bottom: 0px;
-	text-decoration: none;
-	float: left;
+    text-decoration: none;
+    float: left;
 }
-.social a img{ 
-	display: inline;
-	height: 40px;
-	align-items: center;
+
+.social a img {
+    display: inline;
+    height: 40px;
+    align-items: center;
 }
